@@ -52,7 +52,7 @@ def main() -> None:
 
     S.append(W.copy())
     k = 1
-    while k < 10:
+    while True:
         print()
         S.append(find_Sk(S, k))
         print("S{}: {}".format(k, S[k]))
